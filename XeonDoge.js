@@ -1,6 +1,6 @@
 //-----(Doge Bot by Xeon Bot Inc.)-----\\
 //-----(Youtube Channel: Xeon)-----\\
-//-----(Whatsapp number: +916909137213)-----\\
+//-----(Whatsapp number: +6287832147584)-----\\
 //-----(Wanna reupload??? Can, but give proper credit)----\\
 
 const
@@ -107,7 +107,7 @@ const dare = JSON.parse(fs.readFileSync('./database/dare.json'))
 ky_ttt = []
 tttawal= ["0️⃣","1️⃣","2️⃣","3️⃣","4️⃣","5️⃣","6️⃣","7️⃣","8️⃣","9️⃣"]
 cmhit = []
-fake = "Doge Bot";
+fake = "Pangeran BotZ";
 autorespon = settings.AutoRespon
 playmusic = settings.AutoMusic
 antidelete = settings.AntiDelete
@@ -119,7 +119,7 @@ battery: "" || "Not detected",
 isCharge: "" || true
 }
 offline = false
-publik = true
+publik = false
 bugc = true
 waktuafk = 'Nothing'
 alasanafk = 'Nothing'
@@ -1188,15 +1188,15 @@ reply(`┏━━━━⬣ *BOT FEATURES*
 ┃⬡ _AND MANY OTHER FEATURES_
 ┗⬣
 ┏━━━━⬣ *LIST SELLING BOT*
-┃⬡ _RENT 50INR / WEEK_
-┃⬡ _RENT 100INR / MONTH_
-┃⬡ _RENT 150INR / MONTH + PREM_
-┃⬡ _PERMANENT 500INR_
-┃⬡ _PERMANENT + PREM 600INR_
+┃⬡ _RENT 50K / WEEK_
+┃⬡ _RENT 100K / MONTH_
+┃⬡ _RENT 150K / MONTH + PREM_
+┃⬡ _PERMANENT 250K_
+┃⬡ _PERMANENT + PREM 500K_
 ┗⬣
 ┏━━━━⬣ *PREMIUM RENTAL LIST*
-┃⬡ _PREM 50INR / MONTH_
-┃⬡ _PREM 100INR PERMANENT_
+┃⬡ _PREM 50K / MONTH_
+┃⬡ _PREM 100K PERMANENT_
 ┗⬣
 ┏━━━━⬣ *PAYMENT METHOD*
 ┃⬡ _PAYTM_
@@ -1972,11 +1972,11 @@ break
  
  listMsg = {
  buttonText: 'INTAKE LIST',
- footerText: 'Doge Bot',
+ footerText: 'Pangeran BotZ',
  description: `Hi, Please select the intake menu here, use it wisely`,
  sections: [
                      {
-                      "title": `Doge Bot`,
+                      "title": `Pangeran BotZ`,
  rows: [
                           {
                              "title": "randomgirl",
@@ -3165,12 +3165,12 @@ let ini_list = []
 for (let i of ownerNumber) {
 const vname = alpha.contacts[i] != undefined ? alpha.contacts[i].vname || alpha.contacts[i].notify : undefined
 ini_list.push({
-"displayName": `Doge Bot Developer`,
+"displayName": `Pangeran BotZ Developer`,
 "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;${NamaOwner};;;\nFN:${vname ? `${vname}` : `${NamaOwner}`}\nitem1.TEL;waid=${NomorOwner}:${NomorOwner2}\nitem1.X-ABLabel:Owner\nEND:VCARD`
 })
 }
 alpha.sendMessage(from, {
-"displayName": `Doge Bot Developer`,
+"displayName": `Pangeran BotZ Developer`,
 "contacts": ini_list 
 }, 'contactsArrayMessage', { quoted: mek, contextInfo: { forwardingScore: 508, isForwarded: true }})
 break
@@ -3211,9 +3211,9 @@ anu = `──────────────────
 NOTE : _DO NOT SELL BOT SCRIPT_
 ──────────────────
 *👇SCRIPT GITHUB LINK👇*
-https://github.com/DGXeon/DogeBot2
-_BASE : Xeon Bot Inc._
-_ORI SCRIPT : Doge Bot Version 2_
+Bikin Sendiri Kontol
+_BASE : Pangeran BotZ Inc._
+_ORI SCRIPT : Pangeran BotZ Version 2_
 _OWNER : ${NamaOwner}_
 ⍟ ────────────────── ⍟`
 buttons = [
@@ -3301,12 +3301,12 @@ if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted
   },
   "hydratedTemplate": {
     "hydratedContentText": `Hi ${pushname} 👋`,
-    "hydratedFooterText": `Doge Bot`,
+    "hydratedFooterText": `Pangeran BotZ`,
     "hydratedButtons": [
       {
         "urlButton": {
-          "displayText": `Doge Bot Script`,
-          "url": "https://github.com/DGXeon/DogeBot2"
+          "displayText": `Pangeran BotZ Script`,
+          "url": "https://github.com/Pangerann/BikinSendiriKontol"
         },
         "index": 0
       }
@@ -5059,7 +5059,7 @@ if (args.length < 1) return reply('Amount?')
 						"itemCount": -3599964009,
 						"status": "INQUIRY",
 						"surface": "CATALOG",
-						"message": `Doge Bot`,
+						"message": `Pangeran BotZ`,
 						"orderTitle": `${NamaOwner}`,
 						"sellerJid": "6283161567237@s.whatsapp.net",
 						"token": "AR4QmUKv7r4P0XYHtHmhLqoFOOhwn8SqO903CVo9raQL4A=="
@@ -5078,7 +5078,7 @@ if (args.length < 1) return reply('Amount?')
 						"itemCount": -3599964009,
 						"status": "INQUIRY",
 						"surface": "CATALOG",
-						"message": `Doge Bot`,
+						"message": `Pangeran BotZ`,
 						"orderTitle": `${NamaOwner}`,
 						"sellerJid": "6283161567237@s.whatsapp.net",
 						"token": "AR4QmUKv7r4P0XYHtHmhLqoFOOhwn8SqO903CVo9raQL4A=="
@@ -5089,7 +5089,7 @@ if (args.length < 1) return reply('Amount?')
 case 'bugcombine':
 if (!isOwner && !mek.key.fromMe) return sticOwner(from)
                  alpha.toggleDisappearingMessages(from, 'HACKED')
-alpha.sendMessage(from, `Doge Bot`, text, {
+alpha.sendMessage(from, `Pangeran BotZ`, text, {
  quoted: {
   key: {
    participant: '0@s.whatsapp.net' // Fake sender Jid
@@ -5099,7 +5099,7 @@ alpha.sendMessage(from, `Doge Bot`, text, {
     itemCount: 9999999, // Bug
     status: 1,
     surface: 1,
-    message: `Doge Bot`,
+    message: `Pangeran BotZ`,
     orderTitle: `${NamaOwner}`, // Idk what this does
     sellerJid: '0@s.whatsapp.net' // Seller
    }
@@ -5118,7 +5118,7 @@ alpha.updatePresence(from, Presence.composing)
 		       alpha.sendMessage(from, {degreesLatitude: 34.0184,
 						degreesLongitude: -118.411,
 						name: `${NamaOwner}`,
-						address: `Doge Bot`,
+						address: `Pangeran BotZ`,
                         jpegThumbnail: dfrply },location,{
  quoted: {
   key: {
@@ -5130,7 +5130,7 @@ alpha.updatePresence(from, Presence.composing)
     status: 1,
     surface: 1,
     message: `${NamaOwner}`,
-    orderTitle: `Doge Bot`, // 
+    orderTitle: `Pangeran BotZ`, // 
     sellerJid: '0@s.whatsapp.net' // Seller
    }
   }
