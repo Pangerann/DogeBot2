@@ -214,7 +214,6 @@ dogexeon.sendMessage(id, buttonMessages, MessageType.buttonsMessage, options)
 
 
     const htod = "916909137213@s.whatsapp.net"
-    const htod = "916909137213@s.whatsapp.net"
     
 
 dogexeon.on("group-update", async (anu) => {
