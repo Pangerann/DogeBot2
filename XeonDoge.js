@@ -125,7 +125,6 @@ waktuafk = 'Nothing'
 alasanafk = 'Nothing'
 botName = settings.BotName
 NomorOwner = settings.NomorOwner
-NomorOwnerr = settings.NomorOwnerr
 NomorOwner2 = settings.NomorOwner2
 NamaOwner = settings.NamaOwner
 pulsa = settings.Pulsa
